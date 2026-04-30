@@ -1,0 +1,17 @@
+# use the following modifiers before the pin definition (ex: ^!ar99)
+# !       invert the logic
+# ^       activate 5v pullup (does not apply to all pins)
+# mcu_name:   use pins on additional MCU (ex: z:ar10)
+
+# |------------------------|
+# |        BACKPACK        |
+# |------------------------|
+# | Y  |    | Z1 |    | X1 |
+# |-----    ------    -----|
+# |                        |
+# | ------          ------ |
+# | | Z  |          | Z2 | |
+# | ------          ------ |
+# |-----              -----|
+# | X  |              | Y1 |
+# |------------------------|
